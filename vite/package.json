@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "next",
+    "svelte": "^3.40.2",
+    "svelte-hmr": "^0.14.7",
+    "vite": "^2.4.3"
+  }
+}

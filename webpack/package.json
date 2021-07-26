@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "rm -rf public && NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "esbuild-loader": "^2.11.0",
+    "html-webpack-plugin": "5.3.2",
+    "svelte": "^3.40.2",
+    "svelte-loader": "^3.0.0",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
